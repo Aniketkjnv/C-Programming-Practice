@@ -21,7 +21,7 @@ void main()
 		{
 			printf("\nEnter a String : ");
 			scanf("%s",str);
-			n=camel_case(str);
+			n=camel_case(str); 
 			printf("\nThe no of upper case alphabets is : %d\n ",n);
 			i++;
 		}
@@ -35,11 +35,11 @@ int camel_case(char str[])
 
 	for(i=0;i<j;i++)
 	{
-		if(str[i]>=65&&str[i]<=90)
+		if(str[i]>=65&&str[i]<=90)//comparing to the ASCII values
 		{
-			count=count+1;
+			count=count+1; //counting the number of alphabets
 		}
 	}
 	return count;
-	count=0;
+	count=0;//resetting the count variable
 }
