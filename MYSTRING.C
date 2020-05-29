@@ -2,14 +2,12 @@
 	Print the characters in the range L to R of the string. */
 	
 #include<stdio.h>
-#include<conio.h>
 
 void mystring();
 
-void main()
+int main()
 {
 	int i=0,j;
-	clrscr();
 	{
 	
 		printf("A program to print the characters in the range L to R of the string.");
@@ -21,7 +19,6 @@ void main()
 			mystring(); //calling the required function
 			i++;
 		}
-		getch();
 	}
 }
 

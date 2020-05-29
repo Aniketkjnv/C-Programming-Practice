@@ -1,14 +1,12 @@
 /* A program to print the sum of digits of a 5 digit number */
 
 #include<stdio.h>
-#include<conio.h>
 
 int sum_digits(int);
 
-void main()
+int main()
 {
 	int n,sum,i;
-	clrscr();
 	{
 		printf("A program to print the sum of digits of a 5 digit number.");
 		printf("\nEnter no of iterations : ");
@@ -22,7 +20,6 @@ void main()
 			printf("Sum of the digits : %d\n",sum);
 			i--;
 		}
-		getch();
 	}
 }
 

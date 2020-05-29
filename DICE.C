@@ -7,14 +7,12 @@
 /* A program to guess opposite face of the dice */
 
 #include<stdio.h>
-#include<conio.h>
 
 int dice(int);
 
-void main()
+int main()
 {
 	int i=0,j,input,output;
-	clrscr();
 	{
 		printf("This is a program to guess opposite face of the dice.");
 		printf("\n\nEnter the no of iterations : ");
@@ -28,7 +26,6 @@ void main()
 			printf("Opposite face of it : %d\n",output);
 			i++;
 		}
-		getch();
 	}
 }
 

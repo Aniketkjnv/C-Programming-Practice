@@ -5,15 +5,13 @@
 */
 
 #include<stdio.h>
-#include<conio.h>
 
 void number_name(int);
 void even_odd(int);
 
-void main()
+int main()
 {
 	int a,b,i; //a and b for interval
-	clrscr();
 	{
 		printf("Enter the range [a,b]: \n");
 		scanf("%d%d",&a,&b);
@@ -36,7 +34,6 @@ void main()
 			}
 		}
 	}
-	getch();
 }
 
 void number_name(int num)

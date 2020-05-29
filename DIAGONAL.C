@@ -1,14 +1,12 @@
 /* A program in C to find number of diagonals possible in N sided convex polygon */
 
 #include<stdio.h>
-#include<conio.h>
 
 int diagonals(int);
 
-void main()
+int main()
 {
 	int i=0,j,side,diagonal;
-	clrscr();
 	{
 		printf("A program to find number of diagonals of a polygon.");
 		printf("\nEnter no of iterations : ");
@@ -22,7 +20,6 @@ void main()
 			printf("The number of diagonals is : %d \n",diagonal);
 			i++;
 		}
-		getch();
 	}
 }
 
